@@ -1,0 +1,1 @@
+﻿public class JournalRequest { public int LogbookId { get; set; } }
