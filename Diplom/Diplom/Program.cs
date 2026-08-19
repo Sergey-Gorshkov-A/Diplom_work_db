@@ -14,7 +14,11 @@ using System.Text;
 var host = Host.CreateDefaultBuilder(args)
     .ConfigureServices((context, services) =>
     {
-        var connectionString = context.Configuration.GetConnectionString("DefaultConnection");
+        var configuration = context.Configuration;
+
+        var relativePath = configuration.GetConnectionString("DefaultConnectionRelative");
+        var fullPath = Path.Combine(AppContext.BaseDirectory, relativePath);
+        var connectionString = $"Data Source={fullPath}";
         services.AddDbContext<ServerDbContext>(options =>
             options.UseSqlite(connectionString));
 

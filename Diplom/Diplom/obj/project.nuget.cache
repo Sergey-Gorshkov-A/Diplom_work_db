@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lLosHGEjjl4=",
+  "dgSpecHash": "rl0ublhRaQ0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gorsh\\Desktop\\Работа\\Бакалавриат\\Диплом\\Diplom\\Diplom\\Diplom.csproj",
+  "projectFilePath": "C:\\Users\\gorsh\\Source\\Repos\\Diplom_work_db\\Diplom\\Diplom\\Diplom.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gorsh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\gorsh\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
